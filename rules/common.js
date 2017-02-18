@@ -47,7 +47,6 @@ module.exports = {
 		'function-name-case':                                'lower',
 		'function-parentheses-newline-inside':               'always-multi-line',
 		'function-parentheses-space-inside':                 'never-single-line',
-		'function-url-data-uris':                            'always',
 		'function-url-quotes':                              ['always', { except: ['empty'] }],
 		'function-whitespace-after':                         'always',
 
