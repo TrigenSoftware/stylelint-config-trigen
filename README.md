@@ -15,4 +15,4 @@ or
 yarn add -D stylelint-config-trigen
 ```
 
-2) Add `'extends': 'stylelint-config-trigen'` to your .stylelintrc
+2) Add `'extends': 'stylelint-config-trigen'` or `'extends': 'stylelint-config-trigen/scss'` to your .stylelintrc
