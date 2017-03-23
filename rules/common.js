@@ -14,14 +14,14 @@ module.exports = {
 			'/color/',
 			'z-index'
 		]],
-		'order/declaration-block-order':                     [
+		'order/order':                                       [
 			'dollar-variables',
 			'custom-properties',
 			'declarations',
 			'rules',
 			{ type: 'at-rule', name: 'media' }
 		],
-		'order/declaration-block-property-groups-structure': [require('./concentric-css').map(properties => ({
+		'order/properties-order':                            [require('./concentric-css').map(properties => ({
 			emptyLineBefore: 'never',
 			properties
 		})), { unspecified: 'bottom' }],
