@@ -13,7 +13,9 @@ module.exports = {
 			'font-family',
 			'/color/',
 			'z-index'
-		]],
+		], {
+			ignoreKeywords: ["currentColor", "transparent", "inherit"]
+		}],
 		'order/order':                                       [
 			'dollar-variables',
 			'custom-properties',
