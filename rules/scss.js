@@ -7,6 +7,18 @@ module.exports = {
 		'stylelint-scss'
 	],
 	'rules': {
+		'at-rule-no-unknown':                                  [true, { ignoreAtRules: [
+			'each',
+			'else',
+			'extend',
+			'for',
+			'function',
+			'if',
+			'include',
+			'mixin',
+			'return',
+			'while'
+		] }],
 		'scss/at-else-closing-brace-newline-after':             'always-last-in-chain',
 		'scss/at-else-closing-brace-space-after':               'always-intermediate',
 		'scss/at-else-empty-line-before':                       'never',

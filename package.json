@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-trigen",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Trigen's stylelint config",
   "main": "index.js",
   "repository": "https://github.com/TrigenSoftware/stylelint-config-trigen",
