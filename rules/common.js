@@ -147,9 +147,9 @@ module.exports = {
 		'selector-max-empty-lines':                          0,
 
 		// Selector list
-		'selector-list-comma-newline-after':                 'never-multi-line',
+		'selector-list-comma-newline-after':                 'always-multi-line',
 		'selector-list-comma-newline-before':                'never-multi-line',
-		'selector-list-comma-space-after':                   'always',
+		'selector-list-comma-space-after':                   'always-single-line',
 		'selector-list-comma-space-before':                  'never',
 
 		// Rule

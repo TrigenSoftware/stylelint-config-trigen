@@ -8,3 +8,12 @@ body {
 	color: var(--main-color);
 	font-family: var(--system-font);
 }
+
+.very-very-very-very-very-long__selector,
+.very-very-very-very-very-long__selector--other {
+	color: currentColor;
+}
+
+.not-so-long__selector, .not-so-long__selector--other {
+	color: currentColor;
+}
