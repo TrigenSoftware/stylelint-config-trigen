@@ -20,8 +20,7 @@ module.exports = {
 			'dollar-variables',
 			'custom-properties',
 			'declarations',
-			'rules',
-			{ type: 'at-rule', name: 'media' }
+			'rules'
 		],
 		'order/properties-order':                            [require('./concentric-css').map(properties => ({
 			emptyLineBefore: 'never',
