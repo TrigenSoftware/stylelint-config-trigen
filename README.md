@@ -1,18 +1,31 @@
-[![NPM](https://nodei.co/npm/stylelint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/stylelint-config-trigen/)
-
 # stylelint-config-trigen
+
+[![npm][npm]][npm-url]
+[![deps][deps]][deps-url]
+[![peer-deps][peer-deps]][peer-deps-url]
+
+[npm]: https://img.shields.io/npm/v/stylelint-config-trigen.svg
+[npm-url]: https://npmjs.com/package/stylelint-config-trigen
+
+[deps]: https://david-dm.org/TrigenSoftware/stylelint-config-trigen.svg
+[deps-url]: https://david-dm.org/TrigenSoftware/stylelint-config-trigen
+
+[peer-deps]: https://david-dm.org/TrigenSoftware/stylelint-config-trigen/peer-status.svg
+[peer-deps-url]: https://david-dm.org/TrigenSoftware/stylelint-config-trigen?type=peer
 
 Trigen's stylelint config.
 
-# Getting Started
+# Install
 
-1) Install with npm
 ```bash
 npm i -D stylelint-config-trigen
-```
-or
-```bash
+#or
 yarn add -D stylelint-config-trigen
 ```
 
-2) Add `'extends': 'stylelint-config-trigen'` or `'extends': 'stylelint-config-trigen/scss'` to your .stylelintrc
+# Configure
+
+Add `'extends': 'stylelint-config-trigen'` or `'extends': 'stylelint-config-trigen/scss'` to your .stylelintrc
+
+---
+[![NPM](https://nodei.co/npm/stylelint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/stylelint-config-trigen/)

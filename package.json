@@ -1,19 +1,37 @@
 {
   "name": "stylelint-config-trigen",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "description": "Trigen's stylelint config",
-  "main": "index.js",
-  "repository": "https://github.com/TrigenSoftware/stylelint-config-trigen",
   "author": "dangreen",
   "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrigenSoftware/stylelint-config-trigen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TrigenSoftware/stylelint-config-trigen/issues"
+  },
   "keywords": [
     "stylelint",
     "stylelint-config"
   ],
   "dependencies": {
-    "stylelint-csstree-validator": "^1.0.5",
-    "stylelint-declaration-strict-value": "^1.0.3",
-    "stylelint-order": "^0.4.1",
-    "stylelint-scss": "^1.4.1"
-  }
+    "stylelint-csstree-validator": "^1.2.0",
+    "stylelint-declaration-strict-value": "^1.0.4",
+    "stylelint-order": "^0.7.0",
+    "stylelint-scss": "^2.1.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^8.2.0"
+  },
+  "devDependencies": {
+    "stylelint": "^8.2.0"
+  },
+  "files": [
+    "rules",
+    "css.js",
+    "scss.js",
+    "index.js"
+  ]
 }

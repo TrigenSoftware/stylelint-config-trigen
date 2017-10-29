@@ -133,7 +133,7 @@ module.exports = {
 		'selector-combinator-space-before':                  'always',
 		'selector-descendant-combinator-no-non-space':       true,
 		'selector-max-compound-selectors':                   4,
-		'selector-no-universal':                             true,
+		'selector-max-universal':                            1,
 		'selector-no-vendor-prefix':                         true,
 		'selector-pseudo-class-case':                        'lower',
 		'selector-pseudo-class-no-unknown':                  true,
