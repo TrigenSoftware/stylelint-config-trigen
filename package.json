@@ -4,7 +4,6 @@
   "description": "Trigen's stylelint config",
   "author": "dangreen",
   "license": "MIT",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TrigenSoftware/stylelint-config-trigen.git"
@@ -12,6 +11,7 @@
   "bugs": {
     "url": "https://github.com/TrigenSoftware/stylelint-config-trigen/issues"
   },
+  "main": "index.js",
   "keywords": [
     "stylelint",
     "stylelint-config"
