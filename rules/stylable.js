@@ -20,6 +20,7 @@ module.exports = {
 		'selector-pseudo-class-case':         null,
 		'selector-pseudo-class-no-unknown':   null,
 		'selector-pseudo-element-case':       null,
-		'selector-pseudo-element-no-unknown': null
+		'selector-pseudo-element-no-unknown': null,
+		'selector-type-case':                 null
 	}
 };
