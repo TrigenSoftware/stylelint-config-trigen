@@ -66,7 +66,7 @@ module.exports = {
 		// Time
 		'time-min-milliseconds':                             100,
 
-		// Unit 
+		// Unit
 		'unit-case':                                         'lower',
 		'unit-no-unknown':                                   true,
 

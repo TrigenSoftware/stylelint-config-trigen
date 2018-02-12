@@ -4,6 +4,12 @@
  */
 
 module.exports = [
+	// Pointer
+	[
+		'pointer-events',
+		'touch-action'
+	],
+
 	// Placement
 	[
 		'composes',
@@ -39,6 +45,7 @@ module.exports = [
 
 	// Animation
 	[
+		'will-change',
 		'transition',
 		'animation',
 		'animation-name',

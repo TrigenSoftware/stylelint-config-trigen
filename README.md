@@ -25,7 +25,11 @@ yarn add -D stylelint-config-trigen
 
 # Configure
 
-Add `'extends': 'stylelint-config-trigen'` or `'extends': 'stylelint-config-trigen/scss'` to your .stylelintrc
+- CSS: `'extends': 'stylelint-config-trigen'`
+- SCSS: `'extends': 'stylelint-config-trigen/scss'`
+- Stylable: `'extends': 'stylelint-config-trigen/stylable'`
+
+to your .stylelintrc
 
 ---
 [![NPM](https://nodei.co/npm/stylelint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/stylelint-config-trigen/)

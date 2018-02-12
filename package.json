@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-trigen",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Trigen's stylelint config",
   "author": "dangreen",
   "license": "MIT",
@@ -14,7 +14,10 @@
   "main": "index.js",
   "keywords": [
     "stylelint",
-    "stylelint-config"
+    "stylelint-config",
+    "css",
+    "scss",
+    "stylable"
   ],
   "dependencies": {
     "stylelint-csstree-validator": "^1.2.0",
@@ -32,6 +35,7 @@
     "rules",
     "css.js",
     "scss.js",
+    "stylable.js",
     "index.js"
   ]
 }
