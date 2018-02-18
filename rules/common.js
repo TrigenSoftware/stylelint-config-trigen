@@ -11,8 +11,7 @@ module.exports = {
 		// Plugins
 		'scale-unlimited/declaration-strict-value':          [[
 			'font-family',
-			'/color/',
-			'z-index'
+			'/color/'
 		], {
 			ignoreKeywords: ["currentColor", "transparent", "inherit"]
 		}],

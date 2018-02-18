@@ -21,6 +21,7 @@ module.exports = {
 		'selector-pseudo-class-no-unknown':   null,
 		'selector-pseudo-element-case':       null,
 		'selector-pseudo-element-no-unknown': null,
-		'selector-type-case':                 null
+		'selector-type-case':                 null,
+		'no-duplicate-selectors':             null
 	}
 };

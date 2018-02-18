@@ -7,14 +7,14 @@ const concentricCss = require('./concentric-css').slice();
 module.exports = [
 	// Stylable instructions
 	[
-		'states',
 		'extends',
+		'states',
 		'compose',
 		'mixin',
 		'from',
 		'default',
-		'named',
 		'theme',
+		'named',
 		'global'
 	]
 ].concat(concentricCss);
