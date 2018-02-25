@@ -17,11 +17,12 @@ module.exports = {
 			emptyLineBefore: 'never',
 			properties
 		})), { unspecified: 'bottom' }],
+		'selector-type-case':                 null,
+		'selector-type-no-unknown':           null,
 		'selector-pseudo-class-case':         null,
 		'selector-pseudo-class-no-unknown':   null,
 		'selector-pseudo-element-case':       null,
 		'selector-pseudo-element-no-unknown': null,
-		'selector-type-case':                 null,
 		'no-duplicate-selectors':             null
 	}
 };
