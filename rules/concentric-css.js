@@ -19,6 +19,7 @@ module.exports = [
 		'right',
 		'bottom',
 		'left',
+		'z-index',
 		'flex',
 		'flex-basis',
 		'flex-direction',
@@ -62,8 +63,7 @@ module.exports = [
 	[
 		'visibility',
 		'appearance',
-		'opacity',
-		'z-index'
+		'opacity'
 	],
 
 	// Box
