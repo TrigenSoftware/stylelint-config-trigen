@@ -10,10 +10,8 @@ module.exports = {
 		'stylelint-order'
 	],
 	'rules': {
-		'csstree/validator':                {
-			ignore: stylableInstructions.map(_ => `-st-${_}`)
-		},
-		'order/properties-order':           [require('./concentric-stylable').map(properties => ({
+		'csstree/validator':                  null,
+		'order/properties-order':            [require('./concentric-stylable').map(properties => ({
 			emptyLineBefore: 'never',
 			properties
 		})), { unspecified: 'bottom' }],
@@ -23,6 +21,10 @@ module.exports = {
 		'selector-pseudo-class-no-unknown':   null,
 		'selector-pseudo-element-case':       null,
 		'selector-pseudo-element-no-unknown': null,
-		'no-duplicate-selectors':             null
+		'no-duplicate-selectors':             null,
+		'property-case':                      null,
+		'property-no-unknown':               [true, {
+			ignoreProperties: ['/^[a-z][a-z0-9]*([A-Z0-9][a-z0-9]*)*$/']
+		}]
 	}
 };
