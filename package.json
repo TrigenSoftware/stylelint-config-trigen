@@ -12,6 +12,11 @@
     "url": "https://github.com/TrigenSoftware/stylelint-config-trigen/issues"
   },
   "main": "index.js",
+  "scripts": {
+    "checkDeps": "npm-check -s; exit 0",
+    "test": "npm run checkDeps",
+    "prepublishOnly": "npm run test"
+  },
   "keywords": [
     "stylelint",
     "stylelint-config",
@@ -20,16 +25,18 @@
     "stylable"
   ],
   "dependencies": {
-    "stylelint-csstree-validator": "^1.2.2",
+    "stylelint-csstree-validator": "^1.3.0",
     "stylelint-declaration-strict-value": "^1.0.4",
     "stylelint-order": "^0.8.1",
-    "stylelint-scss": "^2.4.0"
+    "stylelint-scss": "^3.1.3"
   },
   "peerDependencies": {
     "stylelint": "^9.1.1"
   },
   "devDependencies": {
-    "stylelint": "^9.1.1"
+    "husky": "^1.0.0-rc.9",
+    "npm-check": "^5.7.1",
+    "stylelint": "^9.3.0"
   },
   "files": [
     "rules",

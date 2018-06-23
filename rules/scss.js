@@ -41,6 +41,7 @@ module.exports = {
 		'scss/operator-no-newline-before':                      true,
 		'scss/operator-no-unspaced':                            true,
 		'scss/partial-no-import':                               true,
-		'scss/selector-no-redundant-nesting-selector':          true
+		'scss/selector-no-redundant-nesting-selector':          true,
+		'scss/no-duplicate-dollar-variables':                   true
 	}
 };
