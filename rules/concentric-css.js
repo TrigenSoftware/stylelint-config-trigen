@@ -4,6 +4,11 @@
  */
 
 module.exports = [
+	// `all` property
+	[
+		'all'
+	],
+
 	// Pointer
 	[
 		'pointer-events',
@@ -27,10 +32,30 @@ module.exports = [
 		'flex-grow',
 		'flex-shrink',
 		'flex-wrap',
+		'grid',
+		'grid-area',
+		'grid-template',
+		'grid-template-areas',
+		'grid-template-rows',
+		'grid-template-columns',
+		'grid-row',
+		'grid-row-start',
+		'grid-row-end',
+		'grid-column',
+		'grid-column-start',
+		'grid-column-end',
+		'grid-auto-rows',
+		'grid-auto-columns',
+		'grid-auto-flow',
+		'grid-gap',
+		'grid-row-gap',
+		'grid-column-gap',
 		'align-content',
 		'align-items',
 		'align-self',
 		'justify-content',
+		'justify-items',
+		'justify-self',
 		'order',
 		'columns',
 		'column-gap',
