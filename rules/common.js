@@ -5,7 +5,8 @@
 module.exports = {
 	'plugins': [
 		'stylelint-declaration-strict-value',
-		'stylelint-order'
+		'stylelint-order',
+		'stylelint-a11y'
 	],
 	'rules': {
 		// Plugins
@@ -186,15 +187,23 @@ module.exports = {
 		// General / Sheet
 		'indentation':                                      ['tab', { indentInsideParens: 'twice', indentClosingBrace: false }],
 		'max-empty-lines':                                   1,
-		// 'no-browser-hacks':                                  true, // deprecated
 		'no-descending-specificity':                         true,
 		'no-duplicate-selectors':                            true,
 		'no-empty-source':                                   true,
 		'no-eol-whitespace':                                 true,
 		'no-extra-semicolons':                               true,
-		// 'no-indistinguishable-colors':                       true, // deprecated
 		'no-invalid-double-slash-comments':                  true,
-		'no-missing-end-of-source-newline':                  true
-		// 'no-unsupported-browser-features':                  [true, { browsers: '> 1%, last 2 versions, iOS > 7, Android > 4.4, not OperaMini all' }] // deprecated
+		'no-missing-end-of-source-newline':                  true,
+
+		// a11y
+		'a11y/media-prefers-reduced-motion':                 true,
+		'a11y/no-outline-none':                              true,
+		'a11y/selector-pseudo-class-focus':                  true,
+		'a11y/no-obsolete-attribute':                        true,
+		'a11y/no-obsolete-element':                          true,
+		'a11y/no-text-align-justify':                        true,
+		'a11y/font-size-is-readable':                       [true, { 'severity': 'warning' }],
+		'a11y/line-height-is-vertical-rhythmed':            [true, { 'severity': 'warning' }],
+		'a11y/no-display-none':                             [true, { 'severity': 'warning' }]
 	}
 };

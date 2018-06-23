@@ -2,8 +2,6 @@
  * Stylable config
  */
 
-const [stylableInstructions] = require('./concentric-stylable');
-
 module.exports = {
 	'plugins': [
 		'stylelint-csstree-validator',
