@@ -3175,9 +3175,9 @@ stylehacks@^2.3.0:
     text-table "^0.2.0"
     write-file-stdout "0.0.2"
 
-stylelint-a11y@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/stylelint-a11y/-/stylelint-a11y-1.1.4.tgz#7fc3dc15f12c32cb07efeb67b6280ca1591aabcd"
+stylelint-a11y@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/stylelint-a11y/-/stylelint-a11y-1.1.5.tgz#d8a92a0245da4e8a86ed79392ddb5b149ef6952b"
 
 stylelint-csstree-validator@^1.3.0:
   version "1.3.0"
