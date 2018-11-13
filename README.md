@@ -15,7 +15,7 @@
 
 Trigen's stylelint config.
 
-# Install
+## Install
 
 ```bash
 npm i -D stylelint-config-trigen
@@ -23,7 +23,7 @@ npm i -D stylelint-config-trigen
 yarn add -D stylelint-config-trigen
 ```
 
-# Configure
+## Configure
 
 - CSS: `'extends': 'stylelint-config-trigen'`
 - SCSS: `'extends': 'stylelint-config-trigen/scss'`
