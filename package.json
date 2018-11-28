@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-trigen",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Trigen's stylelint config",
   "author": "dangreen",
   "license": "MIT",
@@ -13,8 +13,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "checkDeps": "npm-check -s; exit 0",
-    "test": "npm run checkDeps",
+    "test": "cd test; ./test.sh",
     "prepublishOnly": "npm run test"
   },
   "keywords": [
@@ -35,8 +34,6 @@
     "stylelint": "^9.1.1"
   },
   "devDependencies": {
-    "husky": "^1.0.0-rc.9",
-    "npm-check": "^5.7.1",
     "stylelint": "^9.3.0"
   },
   "files": [

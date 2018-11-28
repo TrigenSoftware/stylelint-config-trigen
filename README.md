@@ -3,6 +3,7 @@
 [![npm][npm]][npm-url]
 [![deps][deps]][deps-url]
 [![peer-deps][peer-deps]][peer-deps-url]
+[![Greenkeeper badge][greenkeeper]][greenkeeper-url]
 
 [npm]: https://img.shields.io/npm/v/stylelint-config-trigen.svg
 [npm-url]: https://npmjs.com/package/stylelint-config-trigen
@@ -12,6 +13,9 @@
 
 [peer-deps]: https://david-dm.org/TrigenSoftware/stylelint-config-trigen/peer-status.svg
 [peer-deps-url]: https://david-dm.org/TrigenSoftware/stylelint-config-trigen?type=peer
+
+[greenkeeper]: https://badges.greenkeeper.io/TrigenSoftware/stylelint-config-trigen.svg
+[greenkeeper-url]: https://greenkeeper.io/
 
 Trigen's stylelint config.
 
