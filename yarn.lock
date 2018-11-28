@@ -1936,12 +1936,12 @@ postcss-selector-parser@^4.0.0:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss-sorting@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-3.1.0.tgz#af7c90ee73ad12569a57664eaf06735c2e25bec0"
+postcss-sorting@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-4.0.1.tgz#4bb4eb40e07e2b74e49f6f97fd4317fa73bd65a8"
   dependencies:
     lodash "^4.17.4"
-    postcss "^6.0.13"
+    postcss "^7.0.0"
 
 postcss-syntax@^0.28.0:
   version "0.28.0"
@@ -1969,7 +1969,7 @@ postcss@^5.2.16:
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^6.0.0, postcss@^6.0.13, postcss@^6.0.3, postcss@^6.0.6, postcss@^6.0.8:
+postcss@^6.0.0, postcss@^6.0.3, postcss@^6.0.6, postcss@^6.0.8:
   version "6.0.13"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.13.tgz#b9ecab4ee00c89db3ec931145bd9590bbf3f125f"
   dependencies:
@@ -1977,13 +1977,21 @@ postcss@^6.0.0, postcss@^6.0.13, postcss@^6.0.3, postcss@^6.0.6, postcss@^6.0.8:
     source-map "^0.6.1"
     supports-color "^4.4.0"
 
-postcss@^6.0.14, postcss@^6.0.16, postcss@^6.0.17:
+postcss@^6.0.16, postcss@^6.0.17:
   version "6.0.19"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.19.tgz#76a78386f670b9d9494a655bf23ac012effd1555"
   dependencies:
     chalk "^2.3.1"
     source-map "^0.6.1"
     supports-color "^5.2.0"
+
+postcss@^7.0.0, postcss@^7.0.2:
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.6.tgz#6dcaa1e999cdd4a255dcd7d4d9547f4ca010cdc2"
+  dependencies:
+    chalk "^2.4.1"
+    source-map "^0.6.1"
+    supports-color "^5.5.0"
 
 preserve@^0.2.0:
   version "0.2.0"
@@ -2453,13 +2461,13 @@ stylelint-declaration-strict-value@^1.0.4:
   dependencies:
     stylelint "^7.6.0"
 
-stylelint-order@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-0.8.1.tgz#35f71af3a15954154e0e99e5646ba3d6fbe34f8d"
+stylelint-order@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-2.0.0.tgz#f19400e1d42a844bfd149fae1daa02e671a9b2f2"
   dependencies:
-    lodash "^4.17.4"
-    postcss "^6.0.14"
-    postcss-sorting "^3.1.0"
+    lodash "^4.17.10"
+    postcss "^7.0.2"
+    postcss-sorting "^4.0.1"
 
 stylelint-scss@^3.1.3:
   version "3.1.3"
@@ -2595,6 +2603,12 @@ supports-color@^5.2.0:
 supports-color@^5.3.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.4.0.tgz#1c6b337402c2137605efe19f10fec390f6faab54"
+  dependencies:
+    has-flag "^3.0.0"
+
+supports-color@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
   dependencies:
     has-flag "^3.0.0"
 
