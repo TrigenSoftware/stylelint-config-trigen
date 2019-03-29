@@ -23,6 +23,7 @@ module.exports = {
 		'property-case':                      null,
 		'property-no-unknown':               [true, {
 			ignoreProperties: ['/^[a-z][a-z0-9]*([A-Z0-9][a-z0-9]*)*$/']
-		}]
+		}],
+		'function-name-case':                 null
 	}
 };
