@@ -21,7 +21,7 @@ module.exports = {
 		'selector-pseudo-element-no-unknown': null,
 		'no-duplicate-selectors':             null,
 		'property-case':                      null,
-		'property-no-unknown':               [true, {
+		'property-no-unknown':                [true, {
 			ignoreProperties: ['/^[a-z][a-z0-9]*([A-Z0-9][a-z0-9]*)*$/']
 		}],
 		'function-name-case':                 null

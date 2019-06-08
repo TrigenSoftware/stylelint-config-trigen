@@ -14,7 +14,7 @@ module.exports = {
 			'font-family',
 			'/color([^A-Z]|$)/'
 		], {
-			ignoreKeywords: ["currentColor", "transparent", "inherit"]
+			ignoreKeywords: ['currentColor', 'transparent', 'inherit']
 		}],
 		'order/order':                                       [
 			'dollar-variables',
@@ -48,7 +48,7 @@ module.exports = {
 		'function-name-case':                                'lower',
 		'function-parentheses-newline-inside':               'always-multi-line',
 		'function-parentheses-space-inside':                 'never-single-line',
-		'function-url-quotes':                              ['always', { except: ['empty'] }],
+		'function-url-quotes':                               ['always', { except: ['empty'] }],
 		'function-whitespace-after':                         'always',
 
 		// Number
@@ -101,7 +101,7 @@ module.exports = {
 		'declaration-empty-line-before':                     'never',
 
 		// Declaration block
-		'declaration-block-no-duplicate-properties':         [true, { ignore: ['consecutive-duplicates-with-different-values'] }],
+		'declaration-block-no-duplicate-properties':          [true, { ignore: ['consecutive-duplicates-with-different-values'] }],
 		'declaration-block-no-redundant-longhand-properties': true,
 		'declaration-block-no-shorthand-property-overrides':  true,
 		'declaration-block-semicolon-newline-after':          'always',
