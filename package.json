@@ -38,7 +38,7 @@
     "stylelint-scss": "^3.8.0"
   },
   "devDependencies": {
-    "@trigen/scripts": "2",
+    "@trigen/scripts": "^3.1.0",
     "@trigen/scripts-plugin-eslint": "2",
     "@trigen/scripts-preset-lib": "2",
     "stylelint": "^10.1.0"
