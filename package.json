@@ -41,7 +41,7 @@
     "@trigen/scripts": "2",
     "@trigen/scripts-plugin-eslint": "2",
     "@trigen/scripts-preset-lib": "2",
-    "stylelint": "^10.1.0"
+    "stylelint": "^11.0.0"
   },
   "files": [
     "rules",
