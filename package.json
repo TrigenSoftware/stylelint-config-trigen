@@ -40,7 +40,7 @@
   "devDependencies": {
     "@trigen/scripts": "2",
     "@trigen/scripts-plugin-eslint": "^3.1.0",
-    "@trigen/scripts-preset-lib": "2",
+    "@trigen/scripts-preset-lib": "3",
     "stylelint": "^10.1.0"
   },
   "files": [
