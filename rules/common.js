@@ -194,6 +194,7 @@ module.exports = {
 		'no-extra-semicolons':                               true,
 		'no-invalid-double-slash-comments':                  true,
 		'no-missing-end-of-source-newline':                  true,
+		'unicode-bom':                                       'never',
 
 		// a11y
 		'a11y/media-prefers-reduced-motion':                 true,
