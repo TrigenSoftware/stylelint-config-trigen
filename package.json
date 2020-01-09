@@ -28,7 +28,7 @@
     "stylable"
   ],
   "peerDependencies": {
-    "stylelint": "^10.1.0"
+    "stylelint": "^11.1.1"
   },
   "dependencies": {
     "stylelint-a11y": "^1.2.0",
@@ -41,7 +41,7 @@
     "@trigen/scripts": "3",
     "@trigen/scripts-plugin-eslint": "^3.1.0",
     "@trigen/scripts-preset-lib": "3",
-    "stylelint": "^10.1.0"
+    "stylelint": "^11.1.1"
   },
   "files": [
     "rules",
