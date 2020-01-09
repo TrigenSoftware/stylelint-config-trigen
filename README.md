@@ -5,7 +5,7 @@
 [![Peer dependencies status][peer-deps]][peer-deps-url]
 [![Dependencies status][deps]][deps-url]
 [![Build status][build]][build-url]
-[![Greenkeeper badge][greenkeeper]][greenkeeper-url]
+[![Dependabot badge][dependabot]][dependabot-url]
 
 [npm]: https://img.shields.io/npm/v/stylelint-config-trigen.svg
 [npm-url]: https://npmjs.com/package/stylelint-config-trigen
@@ -22,8 +22,8 @@
 [build]: http://img.shields.io/travis/com/TrigenSoftware/stylelint-config-trigen.svg
 [build-url]: https://travis-ci.com/TrigenSoftware/stylelint-config-trigen
 
-[greenkeeper]: https://badges.greenkeeper.io/TrigenSoftware/stylelint-config-trigen.svg
-[greenkeeper-url]: https://greenkeeper.io/
+[dependabot]: https://api.dependabot.com/badges/status?host=github&repo=TrigenSoftware/stylelint-config-trigen
+[dependabot-url]: https://dependabot.com/
 
 Trigen's stylelint config.
 
@@ -41,4 +41,4 @@ yarn add -D stylelint-config-trigen
 - SCSS: `'extends': 'stylelint-config-trigen/scss'`
 - Stylable: `'extends': 'stylelint-config-trigen/stylable'`
 
-to your .stylelintrc
+to your `.stylelintrc`
