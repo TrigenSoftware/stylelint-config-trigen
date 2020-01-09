@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-trigen",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "description": "Trigen's stylelint config",
   "author": "dangreen",
   "license": "MIT",
@@ -28,7 +28,7 @@
     "stylable"
   ],
   "peerDependencies": {
-    "stylelint": "^11.1.1"
+    "stylelint": "^12.0.1"
   },
   "dependencies": {
     "stylelint-a11y": "^1.2.0",
@@ -41,7 +41,7 @@
     "@trigen/scripts": "3",
     "@trigen/scripts-plugin-eslint": "^3.1.0",
     "@trigen/scripts-preset-lib": "3",
-    "stylelint": "^11.1.1"
+    "stylelint": "^12.0.1"
   },
   "files": [
     "rules",

@@ -24,6 +24,10 @@ DO NOT TOUCH. SAVE IT ON TOP.
 
 -->
 
+## [2.1.0] - 2020-01-09
+### Changed
+- Stylelint update.
+
 ## [2.0.5] - 2019-06-08
 ### Added
 - `trigen-scripts` dev tool.
