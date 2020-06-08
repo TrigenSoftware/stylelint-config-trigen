@@ -4,11 +4,9 @@
 
 module.exports = {
 	'plugins': [
-		'stylelint-csstree-validator',
 		'stylelint-order'
 	],
 	'rules': {
-		'csstree/validator':                  null,
 		'order/properties-order':            [require('./concentric-stylable').map(properties => ({
 			emptyLineBefore: 'never',
 			properties
@@ -21,9 +19,10 @@ module.exports = {
 		'selector-pseudo-element-no-unknown': null,
 		'no-duplicate-selectors':             null,
 		'property-case':                      null,
-		'property-no-unknown':                [true, {
-			ignoreProperties: ['/^[a-z][a-z0-9]*([A-Z0-9][a-z0-9]*)*$/']
-		}],
-		'function-name-case':                 null
+		// 'property-no-unknown':                [true, {
+		// 	ignoreProperties: [/^[a-z][a-z0-9]*([A-Z0-9][a-z0-9]*)*$/]
+		// }],
+		'function-name-case':                 null,
+		'value-keyword-case':                 null
 	}
 };

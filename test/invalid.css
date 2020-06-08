@@ -7,3 +7,10 @@ body {
    font-family: var(--system-font);
    color: #FACE8D;
 }
+
+.sortTest {
+	color: var(--main-color);
+	top: 0;
+	display: flex;
+	position: relative;
+}
