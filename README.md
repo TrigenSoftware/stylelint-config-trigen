@@ -37,8 +37,27 @@ yarn add -D stylelint-config-trigen
 
 ## Configure
 
-- CSS: `'extends': 'stylelint-config-trigen'`
-- SCSS: `'extends': 'stylelint-config-trigen/scss'`
-- Stylable: `'extends': 'stylelint-config-trigen/stylable'`
+Create `.stylelintrc` with next content:
 
-to your `.stylelintrc`
+```json
+{
+  "extends": "stylelint-config-trigen"
+}
+```
+
+### Other configs
+
+There are other configs for different syntax:
+
+| Config | Description |
+|--------|-------------|
+| stylelint-config-trigen/scss | Rules for SCSS code. |
+| stylelint-config-trigen/stylable | Rules for Stylable code. |
+
+Example:
+
+```json
+{
+  "extends": "stylelint-config-trigen/scss"
+}
+```
