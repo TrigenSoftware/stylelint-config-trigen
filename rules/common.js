@@ -12,7 +12,8 @@ module.exports = {
 	'plugins': [
 		'stylelint-declaration-strict-value',
 		'stylelint-order',
-		'stylelint-a11y'
+		'stylelint-a11y',
+		'stylelint-high-performance-animation'
 	],
 	'rules': {
 		// Plugins
@@ -45,6 +46,8 @@ module.exports = {
 		'a11y/no-outline-none':                              true,
 		'a11y/no-text-align-justify':                        true,
 		'a11y/selector-pseudo-class-focus':                  true,
+		// High perfomance animation
+		'plugin/no-low-performance-animation-properties': [true, { ignore: 'paint-properties' }],
 
 		// Possible errors
 		// Colors
