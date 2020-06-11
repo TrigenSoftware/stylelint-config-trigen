@@ -41,7 +41,7 @@ Create `.stylelintrc` with next content:
 
 ```json
 {
-  "extends": "stylelint-config-trigen"
+    "extends": "stylelint-config-trigen"
 }
 ```
 
@@ -51,6 +51,7 @@ There are other configs for different syntax:
 
 | Config | Description |
 |--------|-------------|
+| stylelint-config-trigen/css | Rules for CSS code. |
 | stylelint-config-trigen/scss | Rules for SCSS code. |
 | stylelint-config-trigen/stylable | Rules for Stylable code. |
 
@@ -58,6 +59,9 @@ Example:
 
 ```json
 {
-  "extends": "stylelint-config-trigen/scss"
+    "extends": [
+        "stylelint-config-trigen"
+        "stylelint-config-trigen/scss"
+    ]
 }
 ```

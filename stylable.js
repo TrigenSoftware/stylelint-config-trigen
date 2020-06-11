@@ -1,10 +1,5 @@
 /**
- * Combine Stylable and common configs
+ * Export Stylable rules
  */
 
-module.exports = {
-	'extends': [
-		'./rules/common',
-		'./rules/stylable'
-	]
-};
+module.exports = require('./rules/stylable');

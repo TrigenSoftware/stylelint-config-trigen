@@ -1,5 +1,5 @@
 /**
- * Identifiers cases matchers.
+ * Identifiers cases matchers
  */
 
 function matcherToPart(matcher) {

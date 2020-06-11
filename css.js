@@ -1,10 +1,5 @@
 /**
- * Combine CSS and common configs
+ * Export CSS rules
  */
 
-module.exports = {
-	'extends': [
-		'./rules/common',
-		'./rules/css'
-	]
-};
+module.exports = require('./rules/css');

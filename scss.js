@@ -1,10 +1,5 @@
 /**
- * Combine SCSS and common configs
+ * Export SCSS rules
  */
 
-module.exports = {
-	'extends': [
-		'./rules/common',
-		'./rules/scss'
-	]
-};
+module.exports = require('./rules/scss');
