@@ -3962,9 +3962,9 @@ stylelint-csstree-validator@^1.3.0:
     css-tree "1.0.0-alpha.38"
 
 stylelint-declaration-strict-value@^1.1.3:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.5.0.tgz#8b6d0a3501934ba091cd76378188e94aeea52ad3"
-  integrity sha512-1sgayCQ+Lg8OWkedeNPFFgKsZctFH0r+XL9K1i5/XTwUOvNDdkKHi9Riy5vYa/n+s0E2M1XlBz3SwtNvoAHUGg==
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.6.0.tgz#607934a3253925ed67b989991ea44414860cdd86"
+  integrity sha512-wgcRML3TKU/2ALCCp4D4B6ZzdCeqX46zeEv+4m1Q+M0leSpjI55p9TrLJ4Pp2ZHrut0p+95AAHuHSgwdyh1/sQ==
   dependencies:
     shortcss "^0.1.3"
 
